@@ -73,7 +73,7 @@ export const ToDoListProvider = ({ children }) => {
 
             getAllAddress.map(async (el) => {
                 const getSingleData = await contract.getCreatorData(el);
-                allToDoList.push(getSingleData[2]);
+                allToDoList.push(getSingleData);
                 console.log('getSingleData', getSingleData);
             });
 

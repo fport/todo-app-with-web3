@@ -1,8 +1,7 @@
 import React, { useState, useEffect, useContext } from "react"
 import { MdVerified } from 'react-icons/md'
 import { RiSendPlaneFill, RiCloseFill } from 'react-icons/ri'
-import { AiFillLock, AiFillUnlock, AiOutlineLoading3Quarters } from 'react-icons/ai'
-import Image from 'next/image'
+import { AiOutlineLoading3Quarters } from 'react-icons/ai'
 
 //INTRNAL IMPORT
 import { ToDoListContext } from '../context/ToDoListApp'
@@ -84,6 +83,7 @@ const Home = () => {
               allToDoList={allToDoList}
               allAddress={allAddress}
               myList={myList}
+              change={change}
             />
           </div>
         </div>
