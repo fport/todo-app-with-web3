@@ -8,6 +8,7 @@ import { toDoListAddress, toDoListABI } from './constants'
 const fetchContract = (signerOrProvider) => new ethers.Contract(toDoListAddress, toDoListABI, signerOrProvider);
 
 export const ToDoListContext = React.createContext();
+
 export const ToDoListProvider = ({ children }) => {
     const [currentAccount, setCurrentAccount] = useState('');
     const [error, setError] = useState('');
