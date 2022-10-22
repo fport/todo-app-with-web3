@@ -27,6 +27,7 @@ const Home = () => {
     checkIfWallerIsConnect();
     getToDoList();
     console.log('allToDoList', allToDoList);
+    console.log('myList', myList);
   }, [])
 
   const onChangeHandler = event => {
