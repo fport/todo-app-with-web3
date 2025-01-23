@@ -13,7 +13,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.6.0",
-    "web3modal": "^1.9.9"
+    "web3modal": "^1.9.12"
   },
   "devDependencies": {
     "@ethersproject/abi": "^5.4.7",
